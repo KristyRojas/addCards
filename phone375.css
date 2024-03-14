@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     /* Esto permitirá que los contenedores se envuelvan a la siguiente línea si no hay suficiente espacio horizontal */
+  }
+
+.contenedor {
+    margin-top: 20px; /* Ajusta el margen inferior entre los contenedores según sea necesario */
+  }
