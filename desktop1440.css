@@ -1,0 +1,13 @@
+body{
+    display:flex;
+    flex-wrap:wrap;
+}
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: denter; /* Esto permitirá que los contenedores se envuelvan a la siguiente línea si no hay suficiente espacio horizontal */
+}
+
+.contenedor{
+    height: 70vh;
+}
