@@ -1,0 +1,117 @@
+:root{
+    --Green: hsl(75, 94%, 57%) ;
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Off-Black);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    margin:0;
+    
+}
+
+  
+.ok{
+        
+        background-color: var(--Grey); /* Color de fondo similar al de los botones de redes sociales */
+        font-size: 14px;
+        border-radius: 7px;
+        border: none; /* Eliminar borde */
+        width: 60px; /* Ajustar al ancho */
+        height: 20px;
+     /* Centrar horizontalmente y agregar espacio entre el botón y las tarjetas */
+         /* Centrar texto horizontalmente */
+        transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+        color: white;
+}
+.main button:hover {
+    background-color: green; /* Cambiar color de fondo al pasar el ratón */
+    color: var(--Negro-Opaco); /* Cambiar color de texto al pasar el ratón */
+    font-weight: 600; /* Cambiar peso de la fuente al pasar el ratón */
+}
+.contenedor{
+    background-color: var(--Dark-Grey);
+    color: var(--White);
+    border-radius: 10px;
+    text-align: center;
+    width:340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Inter", sans-serif;
+    margin-right: 20px;
+    height: 90vh;
+}
+.cabe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 75px; 
+    height: 75px; 
+    overflow: hidden; 
+}
+.cabe img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+.medio {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family:"Inter", sans-serif;
+}
+.medio h3{
+    font-family:"Inter", sans-serif;
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+.medio p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.pala{
+    color: var(--Green);
+    font-size: 14px; /* Cambia #ff0000 al color que desees */
+}
+.final{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.final button{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--White);
+    background-color: var(--Grey);
+    width: 300px;
+    height: 43px;
+    border:none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: none;
+    font-family:"Inter", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    transition: background-color 0.2s;
+}
+
+.final button:hover {
+    background-color: var(--Green); /* Cambia var(--NewColor) al color que desees */
+}
